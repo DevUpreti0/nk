@@ -15,7 +15,7 @@ const getQuote = async () => {
     const author = item.author;
     text.innerText = quote;
     auth.innerText = author;
-    button.href = `https://twitter.com/intent/tweet?text=${quote} - ${author}`
+    button.href = `whatsapp://send?text=${quote} - ${author}`
 }
 
 nextBtn.addEventListener('click', getQuote);
